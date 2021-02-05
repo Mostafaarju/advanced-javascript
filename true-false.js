@@ -12,7 +12,7 @@
 // {}
 
 const age = 4;
-if (age > 0) {
+if (age || age == 0) {
     console.log('Condition is true');
 } else {
     console.log('Condition is false');
